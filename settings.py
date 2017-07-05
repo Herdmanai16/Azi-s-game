@@ -3,19 +3,19 @@ import random
 # game options/settings
 TITLE = "Best Thing Since Sliced Bread"
 WIDTH = 750
-HEIGHT = 700
+HEIGHT = 600
 FPS = 69
 FONT_NAME = 'arial'
 HS_FILE = "highscore.txt"
-WIDTH1 = 70.98
+WIDTH1 = 70
 WIDTH2 = 120
 
 
 # player properties
-PLAYER_ACC = 8
-PLAYER_FRICTION = -0.2
-PLAYER_GRAV = 0.8
-PLAYER_JUMP = 30
+PLAYER_ACC = 0.9
+PLAYER_FRICTION = -0.06
+PLAYER_GRAV = 0.7
+PLAYER_JUMP = 20
 
 # starting platforms
 PLATFORM_LIST = [(0, HEIGHT - 40, WIDTH, 40),

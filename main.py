@@ -88,8 +88,8 @@ class Game:
             self.playing = False
 
         # spawn new platforms to keep same average number
-        while len(self.platforms) < 8:
-            width = random.randrange(70, 100)
+        while len(self.platforms) < 6:
+            width = random.randrange(50, 100)
             p = Platform(random.randrange(0, WIDTH - width),
                          random.randrange(-75, -30),
                          width, 20)
